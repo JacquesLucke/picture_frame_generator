@@ -12,7 +12,7 @@ bl_info = {
 import os
 import bpy
 import bmesh
-from . generator import createFrameBM
+from . generator import createFrameBM, bmeshFromObject
 
 class GeneratePictureFrameOperator(bpy.types.Operator):
     bl_idname = "object.generate_picture_frame"
